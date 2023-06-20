@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.UI;
 
 public class Unit : MonoBehaviour
 {
@@ -12,14 +11,13 @@ public class Unit : MonoBehaviour
     [SerializeField]
     private UnitTypeSO unitType;
 
-    private NavMeshAgent mAgent;
+    private MoveAction mMoveAction;
 
     public bool Selected { private set; get; } = false;
 
     private void Awake()
     {
-        mAgent = GetComponent<NavMeshAgent>();
-        mAgent.speed = unitType.speed;
+        mMoveAction = GetComponent<MoveAction>();
     }
 
     public void Select()
@@ -30,7 +28,29 @@ public class Unit : MonoBehaviour
 
     public void GoToDestination(Vector3 position)
     {
-        mAgent.destination = position;
+        mMoveAction.Move(position);
+    }
+
+    public void Collect(Resource resource)
+    {
+        if (TryGetComponent<CollectAction>(out CollectAction action))
+        {
+            mMoveAction.IsActive = false;
+            action.resource= resource;
+            action.IsActive= true;
+        }
+
+    }
+
+    public void Attack()
+    {
+
+    }
+
+
+    public UnitTypeSO GetUnitTypeSO()
+    {
+        return unitType;
     }
 
 }

@@ -25,7 +25,6 @@ public class UnitBarUI : MonoBehaviour
             );
             unitItemUI.GetComponent<UnitBarItemUI>().Init(unitTypeSO.image, () =>
             {
-                Debug.Log($"Se selecciono {unitTypeSO.name}");
                 UnitManager.Instance.SelectUnitToSpawn(unitTypeSO);
             });
             index++;

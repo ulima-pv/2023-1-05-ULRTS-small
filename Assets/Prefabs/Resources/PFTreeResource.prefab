@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2603938641039100889}
   - component: {fileID: 3034172315329992110}
-  m_Layer: 0
+  - component: {fileID: 2764673807692448730}
+  m_Layer: 6
   m_Name: PFTreeResource
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48,6 +49,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 4.725403
   m_Center: {x: -0.8899994, y: 4.29, z: 2.1833954}
+--- !u!114 &2764673807692448730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2603938641039100890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19f1b3444f746364a9a9f6d6853d56e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resourceType: {fileID: 11400000, guid: 6a2faf9c6936940498245815eee50bf8, type: 2}
 --- !u!1001 &2603938640700269899
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58,6 +72,10 @@ PrefabInstance:
     - target: {fileID: 8558791212747440328, guid: 2056c22d9a26ca4478b6d10f2a7c17c6, type: 3}
       propertyPath: m_Name
       value: SM_Tree_03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558791212747440328, guid: 2056c22d9a26ca4478b6d10f2a7c17c6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9046957519707806322, guid: 2056c22d9a26ca4478b6d10f2a7c17c6, type: 3}
       propertyPath: m_RootOrder
@@ -121,6 +139,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_03
       objectReference: {fileID: 0}
+    - target: {fileID: 8558791212747440328, guid: 2056c22d9a26ca4478b6d10f2a7c17c6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 9046957519707806322, guid: 2056c22d9a26ca4478b6d10f2a7c17c6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -182,6 +204,10 @@ PrefabInstance:
     - target: {fileID: 8558791212747440328, guid: 2056c22d9a26ca4478b6d10f2a7c17c6, type: 3}
       propertyPath: m_Name
       value: SM_Tree_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558791212747440328, guid: 2056c22d9a26ca4478b6d10f2a7c17c6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9046957519707806322, guid: 2056c22d9a26ca4478b6d10f2a7c17c6, type: 3}
       propertyPath: m_RootOrder

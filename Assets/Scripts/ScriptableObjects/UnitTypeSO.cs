@@ -8,6 +8,7 @@ public class UnitTypeSO : ScriptableObject
     public new string name;
     public Transform prefab;
     public float speed;
-    public float awakeRange;
+    public float actionRange;
     public Sprite image;
+    public float restTime;
 }

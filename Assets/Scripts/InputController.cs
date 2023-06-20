@@ -48,7 +48,6 @@ public class InputController : MonoBehaviour
                 {
                     if (hit.collider.TryGetComponent<Unit>(out Unit unit))
                     {
-                        Debug.Log("Debe seleccionar la unidad");
                         UnitManager.Instance.SelectUnit(unit);
                     }else
                     {
@@ -97,6 +96,7 @@ public class InputController : MonoBehaviour
             ))
             {
                 UnitManager.Instance.MoveSelectedUnits(hit.point);
+                Debug.Log("must move");
             }
         }
     }

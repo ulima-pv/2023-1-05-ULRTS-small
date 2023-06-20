@@ -611,8 +611,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3255763050290543436}
   - component: {fileID: 3255763050290543439}
-  - component: {fileID: 3255763050290543539}
   - component: {fileID: 5762992361476409695}
+  - component: {fileID: 3255763050290543539}
+  - component: {fileID: 5651801240928554560}
   m_Layer: 0
   m_Name: PFSoldado
   m_TagString: Untagged
@@ -651,21 +652,6 @@ CapsuleCollider:
   m_Height: 1.55
   m_Direction: 1
   m_Center: {x: 0, y: 0.71, z: 0}
---- !u!114 &3255763050290543539
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3255763050290543432}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5fd1fa23a28f374e8cc54080a2498c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selected: {fileID: 3255763050181448912}
-  unitType: {fileID: 11400000, guid: ff3c4b6fbec08cd46bbcb664c1d3d103, type: 2}
-  agent: {fileID: 5762992361476409695}
 --- !u!195 &5762992361476409695
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -688,6 +674,32 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &3255763050290543539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3255763050290543432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fd1fa23a28f374e8cc54080a2498c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selected: {fileID: 3255763050181448912}
+  unitType: {fileID: 11400000, guid: ff3c4b6fbec08cd46bbcb664c1d3d103, type: 2}
+--- !u!114 &5651801240928554560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3255763050290543432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6438cd8b181b14341b02eaeb1a37af19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3255763051046128887
 GameObject:
   m_ObjectHideFlags: 0
