@@ -8,7 +8,7 @@ public class Unit : MonoBehaviour
     private GameObject selected;
 
     [SerializeField]
-    private FirstUnitSO unitType;
+    private UnitTypeSO unitType;
 
     public bool Selected { private set; get; } = false;
 
