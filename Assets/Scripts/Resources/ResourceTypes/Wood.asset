@@ -15,4 +15,4 @@ MonoBehaviour:
   name: Madera
   prefab: {fileID: 2603938641039100889, guid: 3d48cb33258123243b8dc353eb3bd14c, type: 3}
   maxAmount: 10
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: b7eb5aaf3eebf3b479b74441e0335698, type: 3}
