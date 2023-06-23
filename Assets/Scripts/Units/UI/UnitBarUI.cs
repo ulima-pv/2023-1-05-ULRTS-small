@@ -33,10 +33,10 @@ public class UnitBarUI : MonoBehaviour
                     Debug.Log($"Se spawneara { unitType.name }");
                     if (prefabSeleccionado != null)
                     {
-                        prefabSeleccionado.GetComponent<Image>().color = Color.white;
+                        prefabSeleccionado.GetComponent<UnitBarItemUI>().DeSelect();
                     }
                     
-                    unitBarItem.GetComponent<Image>().color = Color.red;
+                    unitBarItem.GetComponent<UnitBarItemUI>().Select();
                     prefabSeleccionado = unitBarItem;
 
                     UnitManager.Instance.SelectUnitToSpawn(unitType);

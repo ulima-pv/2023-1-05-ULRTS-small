@@ -53,4 +53,12 @@ public class UnitManager : MonoBehaviour
         }
     }
 
+    public void MoveUnits(Vector3 position)
+    {
+        foreach (var unit in mSelectedUnits)
+        {
+            unit.Move(position);
+        }
+    }
+
 }
