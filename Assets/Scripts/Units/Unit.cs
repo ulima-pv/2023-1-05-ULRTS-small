@@ -29,7 +29,6 @@ public class Unit : MonoBehaviour
 
     public void Move(Vector3 position)
     {
-
         if (TryGetComponent<MoveAction>(out MoveAction moveAction))
         {
             moveAction.IsActive = true;

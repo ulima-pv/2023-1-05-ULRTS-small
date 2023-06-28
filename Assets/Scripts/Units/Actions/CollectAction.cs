@@ -33,6 +33,7 @@ public class CollectAction : MonoBehaviour
                 }else
                 {
                     mUnit.GetComponent<CollectAction>().IsActive = false;
+                    
                 }
             }else
             {

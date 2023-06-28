@@ -61,6 +61,7 @@ public class MoveAction : MonoBehaviour
 
     public void Move(Vector3 position)
     {
+        mAgent.isStopped = false;
         mAgent.destination = position;
     }
 }
