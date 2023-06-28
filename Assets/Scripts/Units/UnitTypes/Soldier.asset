@@ -17,3 +17,4 @@ MonoBehaviour:
   awakeRange: 3
   prefab: {fileID: 7576374720662340281, guid: d48121a437a4e1543839c1504c034222, type: 3}
   sprite: {fileID: 21300000, guid: a4d2e099c26770f41a397c0600eba251, type: 3}
+  coolDownTime: 1

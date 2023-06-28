@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7825355360115770821}
   - component: {fileID: 7825355360115770820}
-  m_Layer: 0
+  - component: {fileID: 5349218049884396816}
+  m_Layer: 6
   m_Name: PF_Trees
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48,6 +49,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0f43e2049ccf5b4194b139d57a95c9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resourceType: {fileID: 11400000, guid: 0adf63a231831bb4090ccc79dd703745, type: 2}
+--- !u!135 &5349218049884396816
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7825355360115770426}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 5.65
+  m_Center: {x: 0.2, y: 3.1, z: -0.28}
 --- !u!1001 &7825355359016966200
 PrefabInstance:
   m_ObjectHideFlags: 0

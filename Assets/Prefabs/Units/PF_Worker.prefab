@@ -89,6 +89,7 @@ GameObject:
   - component: {fileID: 3181076072888877197}
   - component: {fileID: 1818253131369051973}
   - component: {fileID: 587384141869522873}
+  - component: {fileID: 7117251878911350265}
   m_Layer: 0
   m_Name: PF_Worker
   m_TagString: Untagged
@@ -173,6 +174,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d5c0198a7daec8245a8d12b8fa560281, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsActive: 1
+  colliderRadius: 2
+--- !u!114 &7117251878911350265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818253131369052094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c090fda31b72821408472e1dd3944844, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   IsActive: 0
