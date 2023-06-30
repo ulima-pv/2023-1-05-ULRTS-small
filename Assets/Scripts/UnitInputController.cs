@@ -24,7 +24,7 @@ public class UnitInputController : MonoBehaviour
         Instance = this;
     }
 
-    private void OnSelection(InputValue value)
+    private void OnSelection(InputValue value )
     {
         if (value.isPressed)
         {
@@ -55,6 +55,9 @@ public class UnitInputController : MonoBehaviour
                     
                 }
             }
+        }else
+        {
+            Debug.Log("No esta presionado");
         }
     }
 

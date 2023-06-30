@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3617823306501560928}
   - component: {fileID: 3617823306501560942}
   - component: {fileID: 3617823306501560943}
+  - component: {fileID: 5306105438776397869}
   m_Layer: 5
   m_Name: PF_ResourceBarItemUI
   m_TagString: Untagged
@@ -78,6 +79,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5306105438776397869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3617823306501560929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d15ea2f8bfa5010459e9255aabd844c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 3617823307992383909}
+  image: {fileID: 3617823307394985254}
 --- !u!1 &3617823307394985304
 GameObject:
   m_ObjectHideFlags: 0
@@ -113,7 +128,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.24000001}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.47800064, y: -1.3391991}
+  m_AnchoredPosition: {x: -0.47799683, y: -1.3392029}
   m_SizeDelta: {x: -8.1265, y: -4.9701004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3617823307394985253
@@ -166,7 +181,7 @@ GameObject:
   - component: {fileID: 3617823307992383908}
   - component: {fileID: 3617823307992383909}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -189,7 +204,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.36053297, y: 0}
   m_AnchorMax: {x: 0.619, y: 0.24000001}
-  m_AnchoredPosition: {x: 0.5, y: 1.2999992}
+  m_AnchoredPosition: {x: 0.5, y: 1.3000183}
   m_SizeDelta: {x: -13, y: -12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3617823307992383908
