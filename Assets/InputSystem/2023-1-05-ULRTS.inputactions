@@ -49,6 +49,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "MultipleSelectionPress",
+                    "type": "Button",
+                    "id": "a5301ebc-aacd-4862-baae-57580d93a393",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MultipleSelectionRelease",
+                    "type": "Button",
+                    "id": "1bfc0d3c-1eb3-43af-bfa1-803250e97ba8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -225,6 +243,28 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "MoveUnit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d0268567-0f61-46a7-838f-9169d478ee18",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "MultipleSelectionPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c677f66b-93ba-40af-83d5-15338fc9b404",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "MultipleSelectionRelease",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

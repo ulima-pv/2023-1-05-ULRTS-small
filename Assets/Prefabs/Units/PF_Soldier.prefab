@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 8422192835367873092}
   - component: {fileID: 7576374720662340166}
   - component: {fileID: 3084912712740064196}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: PF_Soldier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -176,6 +176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsActive: 0
+  colliderRadius: 2
 --- !u!1 &7576374721056648485
 GameObject:
   m_ObjectHideFlags: 0
